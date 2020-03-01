@@ -6,6 +6,7 @@ tags:
 - 主题探究
 - 云计算
 - Mesos
+keywords: 云计算,Mesos,软件工程师
 ---
 
 近期由于项目需要，我在研究Apache Mesos，它是一个分布式操作系统的内核。下面我将分几个部分来介绍Mesos：

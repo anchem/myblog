@@ -4,6 +4,7 @@ date: 2015-09-26
 categories: 软件工程师系列
 tags: 
 - 心得感悟
+keywords: 软件工程师,讲座,心得感悟
 ---
 这周的周二到周五，有幸聆听了来自Portland State University计算机学院的XieFei教授的讲座，真是收获良多，颇受振奋啊。 
 <!-- more -->  
