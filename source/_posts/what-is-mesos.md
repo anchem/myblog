@@ -7,6 +7,7 @@ tags:
 - 云计算
 - Mesos
 keywords: 云计算,Mesos,软件工程师
+description: 简单介绍下Apache Mesos
 ---
 
 近期由于项目需要，我在研究Apache Mesos，它是一个分布式操作系统的内核。下面我将分几个部分来介绍Mesos：
@@ -15,7 +16,7 @@ keywords: 云计算,Mesos,软件工程师
  - **什么是Mesos**
  - **Mesos是如何运作的**
  - **如何使用Mesos**
-<!-- more -->
+
 ### 1 背景
 
 #### 1.1 资源划分

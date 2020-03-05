@@ -7,12 +7,13 @@ tags:
 - 编程语言
 - 编码规范
 keywords: Java,waitFor,编码规范
+description: Process的waitFor()为啥会阻塞呢？
 ---
 
 ## 背景
 
 我们想要通过Java调用外部命令行，常常会使用`Runtime.getRuntime().exec(command)`方法，它会返回一个`Process`对象，而当我们想要等待这个命令执行结果时，我们可以调用它的`waitFor()`方法，像这样：
-<!-- more -->
+
 ```
 Process p = Runtime.getRuntime().exec(command);
 p.waitFor();

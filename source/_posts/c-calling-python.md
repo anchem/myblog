@@ -6,10 +6,11 @@ tags:
 - C语言
 - 经验总结
 keywords: C语言,python
+description: 近日项目上要用C调用Python，于是记录下整个过程以便回顾总结。
 ---
 
 近日项目上要用C调用Python，于是记录下整个过程以便大家可以复用我的经验：
-<!-- more -->
+
 ## python安装
 
 **第一步**：下载python的源码，我用的是3.7.3的版本，所以下载下来用的是这个：Python-3.7.3.tgz
