@@ -222,7 +222,7 @@ description: 本文为我在学习传播学相关知识的笔记，内容为传�
 
 《初识传播学（第7版）》 - Em Griffin 著，展江 译
 
-  [1]: http://stillwaters.top/communication-concepts-2
-  [2]: http://stillwaters.top/communication-concepts-3
-  [3]: http://stillwaters.top/communication-concepts-4
-  [4]: http://stillwaters.top/communication-concepts-5
+  [1]: http://stillwaters.top/TW-CM-communication-concepts-2
+  [2]: http://stillwaters.top/TW-CM-communication-concepts-3
+  [3]: http://stillwaters.top/TW-CM-communication-concepts-4
+  [4]: http://stillwaters.top/TW-CM-communication-concepts-5
