@@ -33,7 +33,8 @@ date: 2020-03-02
 #### 分布式及并行开发
 [//]: # (SE-BS-DIS)
 **【==== 并发编程 ====】**
-（探索中）
+
+- **[基于线程的并发编程——概览](http://stillwaters.top/SE-BS-DIS-concurrency-in-C-1/)**
 
 ### 理论方法
 [//]: # (SE-TH)
