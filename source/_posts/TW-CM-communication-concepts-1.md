@@ -1,5 +1,5 @@
 ---
-title: 初识传播学(一)
+title: 初识传播学
 date: 2020-03-01 12:47:01
 categories: 认识世界
 tags: 

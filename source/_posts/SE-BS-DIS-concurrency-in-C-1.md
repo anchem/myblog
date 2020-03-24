@@ -1,5 +1,5 @@
 ---
-title: 基于线程的并发编程——概览
+title: 基于线程的并发编程
 date: 2020-03-23 23:54:40
 categories: 软件工程师系列
 tags:
@@ -71,7 +71,7 @@ Pthreads库主要使用以下几种数据类型：
 
 线程管理类的API提供了**创建**、**销毁**、**取消**、**结合**、**分离**线程与设置和查询线程**属性**等方法。
 
-详细介绍请看：[《基于线程的并发编程——线程管理》][1]（待补充）
+详细介绍请看：[《基于线程的并发编程——线程管理》][1]
 
 ### 2.5.2. 线程同步
 
@@ -162,7 +162,7 @@ End of assembler dump.
 3. 《Computer Systems:A Programmer's Perspective》
 4. [Linux man pages online][21]
 
-[1]: http://stillwaters.top
+[1]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-2/
 [2]: http://stillwaters.top
 [3]: http://stillwaters.top
 [4]: http://stillwaters.top

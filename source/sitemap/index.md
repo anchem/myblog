@@ -34,7 +34,7 @@ date: 2020-03-02
 [//]: # (SE-BS-DIS)
 **【==== 并发编程 ====】**
 
-- **[基于线程的并发编程——概览](http://stillwaters.top/SE-BS-DIS-concurrency-in-C-1/)**
+- **[基于线程的并发编程（C语言篇）](http://stillwaters.top/SE-BS-DIS-concurrency-in-C-1/)**
 
 ### 理论方法
 [//]: # (SE-TH)
@@ -120,7 +120,7 @@ date: 2020-03-02
 [//]: # (TW)
 ### 传播学
 [//]: # (TW-CM)
-- **[初识传播学(一)](http://stillwaters.top/TW-CM-communication-concepts-1/)**
+- **[初识传播学](http://stillwaters.top/TW-CM-communication-concepts-1/)**
 
 ----------
 
