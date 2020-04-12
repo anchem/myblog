@@ -143,11 +143,11 @@ End of assembler dump.
 
 为了解决这种线程同步的问题，Pthreads提供了以下几种机制：
 
-- **互斥量** - [《基于线程的并发编程——互斥量》][2]（待补充）
-- **读写锁** - [《基于线程的并发编程——读写锁》][3]（待补充）
-- **条件变量** - [《基于线程的并发编程——条件变量》][4]（待补充）
-- **自旋锁** - [《基于线程的并发编程——自旋锁》][5]（待补充）
-- **屏障** - [《基于线程的并发编程——屏障》][6]（待补充）
+- **互斥量** - [《基于线程的并发编程——互斥量》][2]
+- **读写锁** - [《基于线程的并发编程——读写锁》][3]
+- **条件变量** - [《基于线程的并发编程——条件变量》][4]
+- **自旋锁** - [《基于线程的并发编程——自旋锁》][5]
+- **屏障** - [《基于线程的并发编程——屏障》][6]
 
 # 3. 实例
 
@@ -163,10 +163,10 @@ End of assembler dump.
 4. [Linux man pages online][21]
 
 [1]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-2/
-[2]: http://stillwaters.top
-[3]: http://stillwaters.top
-[4]: http://stillwaters.top
-[5]: http://stillwaters.top
-[6]: http://stillwaters.top
+[2]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-3/
+[3]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-4/
+[4]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-5/
+[5]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-6/
+[6]: http://stillwaters.top/SE-BS-DIS-concurrency-in-C-7/
 [20]: https://computing.llnl.gov/tutorials/pthreads/
 [21]: http://man7.org/linux/man-pages/index.html
