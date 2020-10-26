@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://stillwaters.top
+url: https://still-waters.gitee.io/blog
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -105,10 +105,10 @@ search:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:anchem/anchem.github.io.git
-  branch: master
+#deploy:
+#  type: git
+#  repo: git@github.com:anchem/anchem.github.io.git
+#  branch: master
 
 # SEO
 sitemap:
