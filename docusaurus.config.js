@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: '倚码千言',
   tagline: 'Dinosaurs are cool',
   url: 'https://codethousand.cn',
   baseUrl: '/blog/',
@@ -44,31 +44,55 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '倚码千言',
         logo: {
-          alt: 'My Site Logo',
+          alt: '倚码千言 Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'softwaremaster',
             position: 'left',
-            label: 'Tutorial',
+            label: '软件大师之路',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'growthtree',
+            position: 'left',
+            label: '阿不成长树',
+          },
+          {
+            type: 'doc',
+            docId: 'selfgrowth',
+            position: 'left',
+            label: '个人成长之旅',
+          },
+          {
+            type: 'doc',
+            docId: 'commonsense',
+            position: 'left',
+            label: '通识知识',
+          },
+          {to: '/blog', label: '博文', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'about',
+            position: 'left',
+            label: '关于',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '主题',
             items: [
               {
                 label: 'Tutorial',
@@ -77,24 +101,16 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '项目',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: '高质量软件工作手册',
+                href: 'https://codethousand.cn/workbook/#/',
+              }
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'Blog',
@@ -102,12 +118,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/anchem',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 倚码千言, Inc. 采用 Docusaurus 构建.`,
       },
       prism: {
         theme: lightCodeTheme,
