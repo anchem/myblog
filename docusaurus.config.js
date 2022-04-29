@@ -7,16 +7,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '倚码千言',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Dinosaurs are cool',  // 网站标语
   url: 'https://codethousand.cn',
   baseUrl: '/blog/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',  // Docusaurus 在检测到无效链接时的行为
+  onBrokenMarkdownLinks: 'warn',  // Docusaurus 在检测到无效 Markdown 链接时的行为
   favicon: 'img/favicon.ico',
   organizationName: 'anchem', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
   deploymentBranch: 'master',
   trailingSlash: false,
+  noIndex: false,  // 设置为false表示告知搜索引擎不要索引您的站点
   presets: [
     [
       'classic',
