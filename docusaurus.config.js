@@ -56,7 +56,7 @@ const config = {
             position: 'left',
             label: '软件大师之路',
           },
-          {to: '/blog', label: '博文', position: 'left'},
+          // {to: '/blog', label: '博文', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -88,10 +88,6 @@ const config = {
           {
             title: '更多',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/anchem',
