@@ -17,7 +17,8 @@ const config = {
   projectName: 'blog', // Usually your repo name.
   deploymentBranch: 'master',
   trailingSlash: false,
-  noIndex: false,  // 设置为false表示告知搜索引擎不要索引您的站点
+  noIndex: false,  // 设置为false表示告知搜索引擎不要索引您的站点i18n: {
+  defaultLocale: 'zh-CN',
   presets: [
     [
       'classic',
