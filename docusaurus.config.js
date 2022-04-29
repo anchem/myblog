@@ -50,12 +50,12 @@ const config = {
           alt: '倚码千言 Logo',
           src: 'img/logo.svg',
         },
+        hideOnScroll: true,  // 滚动时自动隐藏导航栏
         items: [
           {
-            type: 'doc',
-            docId: 'softwaremaster',
-            position: 'left',
+            to: 'docs/softwaremaster',
             label: '软件大师之路',
+            position: 'left'
           },
           // {to: '/blog', label: '博文', position: 'left'},
           {to: '/about', label: '关于', position: 'left'},
