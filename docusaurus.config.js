@@ -33,6 +33,8 @@ const config = {
           postsPerPage: 10,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: '所有文章',
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
