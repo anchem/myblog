@@ -67,13 +67,7 @@ const config = {
             position: 'left'
           },
           {to: '/blog', label: '随笔', position: 'left'},
-          {to: '/about', label: '关于', position: 'left'},
-          {
-            href: 'https://github.com/anchem/anchem.github.io',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
-          }
+          {to: '/about', label: '关于', position: 'right'}
         ],
       },
       footer: {
