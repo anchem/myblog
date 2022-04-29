@@ -117,6 +117,10 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 倚码千言, Inc. 采用 Docusaurus 构建.`,
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
