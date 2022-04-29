@@ -52,35 +52,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'softwaremaster/main',
+            docId: 'softwaremaster',
             position: 'left',
             label: '软件大师之路',
           },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '阿不成长树',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '个人成长之旅',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '通识知识',
-          },
           {to: '/blog', label: '博文', position: 'left'},
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '关于',
-          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -96,7 +72,7 @@ const config = {
             items: [
               {
                 label: '软件大师之路',
-                to: 'softwaremaster/main',
+                to: 'softwaremaster',
               }
             ],
           },
