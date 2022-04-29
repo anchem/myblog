@@ -57,6 +57,11 @@ const config = {
             label: '软件大师之路',
             position: 'left'
           },
+          {
+            to: 'docs/grothtree',
+            label: '阿不成长树',
+            position: 'left'
+          },
           // {to: '/blog', label: '博文', position: 'left'},
           {to: '/about', label: '关于', position: 'left'},
           {
@@ -75,6 +80,10 @@ const config = {
               {
                 label: '软件大师之路',
                 to: 'docs/softwaremaster',
+              },
+              {
+                label: '阿不成长树',
+                to: 'docs/growthtree',
               }
             ],
           },
