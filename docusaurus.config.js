@@ -58,6 +58,7 @@ const config = {
             label: '软件大师之路',
           },
           // {to: '/blog', label: '博文', position: 'left'},
+          {to: '/about', label: '关于', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
