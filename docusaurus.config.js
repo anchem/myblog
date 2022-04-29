@@ -30,14 +30,14 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          postsPerPage: 10,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: '所有文章',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
+        }
+      })
     ],
   ],
 
@@ -62,7 +62,7 @@ const config = {
             label: '阿不成长树',
             position: 'left'
           },
-          // {to: '/blog', label: '博文', position: 'left'},
+          {to: '/blog', label: '随笔', position: 'left'},
           {to: '/about', label: '关于', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
