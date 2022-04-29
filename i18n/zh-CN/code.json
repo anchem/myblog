@@ -32,12 +32,16 @@
     "description": "blog page see all label"
   },
   "theme.NotFound.title": {
-    "message": "哎呀，页面失踪了~",
+    "message": "我们迷失了...",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "找不到你要访问的页面，要不点点别处看看？",
+    "message": "这里还没有施工",
     "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "这片区域，我们以后再来探索吧",
+    "description": "The second paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "关闭",
