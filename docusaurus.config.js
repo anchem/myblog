@@ -58,7 +58,7 @@ const config = {
             position: 'left'
           },
           {
-            to: 'docs/grothtree',
+            to: 'docs/growthtree',
             label: '阿不成长树',
             position: 'left'
           },
