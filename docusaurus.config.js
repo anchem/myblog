@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '倚码千言',
-  tagline: 'Dinosaurs are cool',  // 网站标语
+  tagline: 'Hakcerleon\'s Website',  // 网站标语
   url: 'https://codethousand.cn',
   baseUrl: '/myblog/',
   onBrokenLinks: 'warn',  // Docusaurus 在检测到无效链接时的行为
