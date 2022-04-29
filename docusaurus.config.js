@@ -52,7 +52,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'softwaremaster',
+            docId: 'softwaremaster/main.md',
             position: 'left',
             label: '软件大师之路',
           },
@@ -95,9 +95,9 @@ const config = {
             title: '主题',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+                label: '软件大师之路',
+                to: 'softwaremaster/main.md',
+              }
             ],
           },
           {
