@@ -19,7 +19,8 @@ const config = {
   trailingSlash: false,
   noIndex: false,  // 设置为false表示告知搜索引擎不要索引您的站点
   i18n: {
-    defaultLocale: 'zh-CN'
+    defaultLocale: 'zh-CN',
+    locales: ['en']
   },
   presets: [
     [
