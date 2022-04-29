@@ -74,7 +74,7 @@ const config = {
             items: [
               {
                 label: '软件大师之路',
-                to: 'softwaremaster',
+                to: 'docs/softwaremaster',
               }
             ],
           },
@@ -90,6 +90,10 @@ const config = {
           {
             title: '更多',
             items: [
+              {
+                label: '关于',
+                to: 'about',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/anchem',
