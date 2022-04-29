@@ -9,7 +9,7 @@ const config = {
   title: '倚码千言',
   tagline: 'Dinosaurs are cool',  // 网站标语
   url: 'https://codethousand.cn',
-  baseUrl: '/blog/',
+  baseUrl: '/myblog/',
   onBrokenLinks: 'warn',  // Docusaurus 在检测到无效链接时的行为
   onBrokenMarkdownLinks: 'warn',  // Docusaurus 在检测到无效 Markdown 链接时的行为
   favicon: 'img/favicon.ico',
